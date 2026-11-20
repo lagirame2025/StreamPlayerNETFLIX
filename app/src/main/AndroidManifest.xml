@@ -25,5 +25,13 @@
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false"
             android:theme="@style/Theme.StreamPlayer" />
+
+        <activity
+            android:name=".JellyfinLoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".JellyfinLibraryActivity"
+            android:exported="false" />
     </application>
 </manifest>

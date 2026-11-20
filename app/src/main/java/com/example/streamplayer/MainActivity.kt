@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity() {
         lv.adapter = adapter
         load()
 
+        findViewById<Button>(R.id.btnJellyfin).setOnClickListener {
+            startActivity(Intent(this, JellyfinLoginActivity::class.java))
+        }
+
         findViewById<Button>(R.id.btnPlay).setOnClickListener { play(currentItem()) }
 
         findViewById<Button>(R.id.btnSave).setOnClickListener {

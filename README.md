@@ -16,3 +16,8 @@ Format yang didukung: MP4, MKV, HLS (.m3u8), DASH (.mpd). Mendukung Basic Auth (
 - Akses dari luar rumah: gunakan Tailscale atau domain HTTPS agar aman.
 
 Gunakan hanya untuk konten yang Anda miliki atau berhak putar.
+
+## Fitur Jellyfin
+Di layar utama tekan **Jelajahi Jellyfin**, masukkan alamat server (mis. `192.168.1.10:8096`), username, dan password.
+Setelah login, daftar film/episode tampil dan bisa dicari. Ketuk judul untuk memutar.
+Jika video tidak mau diputar (codec tidak didukung), centang **Transcode (HLS)** agar server mengubahnya ke H.264/AAC.
