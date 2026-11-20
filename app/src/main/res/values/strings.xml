@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Stream Player</string>
+    <string name="hint_url">URL video (.mp4 / .m3u8 / .mpd / .mkv)</string>
+    <string name="hint_user">Username (opsional)</string>
+    <string name="hint_pass">Password (opsional)</string>
+    <string name="btn_play">Putar</string>
+    <string name="btn_save">Simpan</string>
+    <string name="saved_title">Tersimpan (tekan lama untuk hapus)</string>
+</resources>
